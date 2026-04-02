@@ -99,5 +99,10 @@
         uma nova chance de ter uma vida feliz e cheia de carinho. Pense com
         responsabilidade e, se puder, adote um animal.
     </p>
+
+    <footer>
+        <p>&copy; 2026 - Site desenvolvido como projeto escolar. Projeto desenvolvido para a disciplina de Programação Web utilizando
+            HTML, CSS e PHP - Projeto Patas & Lares</p>
+    </footer>
 </body>
 </html>
