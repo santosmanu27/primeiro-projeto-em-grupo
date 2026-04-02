@@ -5,65 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar animal perdido</title>
 </head>
+
+ <link rel="stylesheet" href="Perdido1.css">
+
 <body>
     
     
-    <h1>Cadastro de Animal Perdido</h1>
+   <header class="hero small-hero">
+        <div class="container center">
+            <h1 class="hero-title">Cadastro de Animal Perdido</h1>
+            <p class="hero-text">
+                Ajude Encontrar Animais Perdidos na Sua Região
+            </p>
+        </div>
+    </header>
 
-    <p>
-        Bem-vindo à seção de cadastro de animais perdidos do <strong>Patas & Lares</strong>.
-        Aqui você pode informar sobre animais que estão desaparecidos, para que outras
-        pessoas da comunidade possam ajudá-lo a encontrá-los.
-    </p>
+   <section class="container form-intro">
 
-    <p>
-        Este formulário é simples e rápido de preencher, mas quanto mais informações você
-        colocar, maiores serão as chances de que o seu animal seja encontrado.
-    </p>
+    <div class="intro-card">
 
-    <p>
-        Pedimos para informar corretamente o bairro e um telefone para contato. Se possível,
-        inclua detalhes sobre a aparência do animal, como cor, tamanho ou características
-        especiais. Quanto mais detalhes, mais fácil será para alguém reconhecê-lo.
-    </p>
+        <h2 class="intro-title">Sobre o cadastro</h2>
 
-    <p>
-        Preencha os campos abaixo com cuidado. Todos os dados são importantes para ajudar
-        o animal a voltar para casa. Depois de enviar, os dados ficarão disponíveis no sistema
-        e poderão ser vistos por outras pessoas que estão procurando ou encontraram animais.
-    </p>
+        <p class="text">
+            Bem-vindo à seção de cadastro de animais perdidos do <strong>Patas & Lares</strong>.
+            Aqui você pode informar sobre animais desaparecidos para que outras pessoas possam ajudar.
+        </p>
 
-    <h3>Formulário de Cadastro</h3>
+        <p class="text">
+            Este formulário é simples, mas quanto mais informações você fornecer,
+            maiores serão as chances de encontrar seu animal.
+        </p>
 
-    <form action="processaPerdido.php" method="POST">
+        <p class="text">
+            Informe corretamente o bairro e um telefone. Detalhes como cor, tamanho
+            e características ajudam muito na identificação.
+        </p>
 
-        <p>Nome do animal:</p>
-        <input type="text" name="nome" required >
+        <p class="text">
+            Após o envio, os dados ficarão disponíveis para outras pessoas visualizarem.
+        </p>
 
-        <p>Tipo de animal:</p>
-        <input type="text" name="tipo" required >
+    </div>
 
-        <p>Cidade, Bairro e Rua:</p>
-        <input type="text" name="bairro" required >
+</section>
 
-        <p>ponto de referência:</p>
-        <input type="text" name="rua" requirid>
 
-        <p>Descrição do animal:</p>
-        <textarea name="descricao" rows="4" cols="40"></textarea>
+    <main class="form-section">
+        <div class="form-card">
 
-        <p>Telefone para contato:</p>
-        <input type="text" name="contato" requirid>
+            <h2 class="form-title">Informações do Animal</h2>
 
-        <br><br>
-        <input type="submit" value="Cadastrar Animal Perdido">
+            <form class="form" action="processaPerdido.php" method="POST">
 
-    </form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" name="nome" required>
+                    </div>
 
-    <br><br>
-    <a href="index.php">Voltar para a página inicial</a>
+                    <div class="form-group">
+                        <label>Tipo</label>
+                        <input type="text" name="tipo" required>
+                    </div>
+                </div>
 
-    <footer>
+                <div class="form-group">
+                    <label>Local (Cidade, Bairro, Rua)</label>
+                    <input type="text" name="bairro" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Ponto de referência</label>
+                    <input type="text" name="rua" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Descrição</label>
+                    <textarea name="descricao"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="text" name="contato" required>
+                </div>
+
+                <button class="btn btn-full" type="submit">
+                    Cadastrar Animal
+                </button>
+
+            </form>
+
+            <a href="index.php" class="link-voltar">← Voltar para o início</a>
+
+        </div>
+    </main>
+
+    <footer class="footer">
         <p>&copy; 2026 - Site desenvolvido como projeto escolar. Projeto desenvolvido para a disciplina de Programação Web utilizando
             HTML, CSS e PHP - Projeto Patas & Lares</p>
     </footer>

@@ -1,0 +1,208 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #FFF9E8;
+    color: #2f4f3e;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #FFA05E, #ff7b2c);
+    color: white;
+    padding: 60px 20px;
+}
+
+.small-hero {
+    padding: 50px 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.hero-text {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* FORM SECTION */
+.form-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+/* CARD */
+.form-card {
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+.form-title {
+    margin-bottom: 25px;
+    color: #61855A;
+}
+
+/* FORM */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* LINHA */
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+/* GRUPO */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+/* LABEL */
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+/* INPUTS */
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+/* FOCO (efeito profissional) */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #FFA05E;
+    box-shadow: 0 0 0 3px rgba(255,160,94,0.2);
+}
+
+/* TEXTAREA */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* BOTÃO */
+.btn {
+    background: linear-gradient(135deg, #FFA05E, #ff7b2c);
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* BOTÃO FULL */
+.btn-full {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* LINK VOLTAR */
+.link-voltar {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #61855A;
+    text-decoration: none;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+    background: #61855A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-card {
+        padding: 25px;
+    }
+}
+
+/* CONTAINER DA INTRO */
+.form-intro {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CARD CENTRAL */
+.intro-card {
+    background: #FFF0C1;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 700px;
+    text-align: center; /* CENTRALIZA TUDO */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* TÍTULO */
+.intro-title {
+    color: #61855A;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* TEXTO */
+.intro-card .text {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+/* DESTAQUE NO STRONG */
+.intro-card strong {
+    color: #FFA05E;
+}
+
+/* EFEITO HOVER SUAVE */
+.intro-card:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
