@@ -63,5 +63,10 @@
     <br><br>
     <a href="index.php">Voltar para a página inicial</a>
 
+    <footer>
+        <p>&copy; 2026 - Site desenvolvido como projeto escolar. Projeto desenvolvido para a disciplina de Programação Web utilizando
+            HTML, CSS e PHP - Projeto Patas & Lares</p>
+    </footer>
+
 </body>
 </html>
