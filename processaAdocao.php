@@ -5,36 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal para adoção Cadastrado</title>
 </head>
+
+ <link rel="stylesheet" href="Adocao2.css">
+
 <body>
-     <h1>Animal para Adoção Cadastrado</h1>
+     
+<header class="hero success-hero">
+    <div class="container center">
+        <h1 class="hero-title">Cadastro concluído</h1>
+        <p class="hero-text">O animal já está disponível para adoção</p>
+    </div>
+</header>
 
-    <p>
-        Obrigado por cadastrar um animal disponível para adoção no 
-        <strong>Patas & Lares</strong>. As informações enviadas agora estão 
-        registradas e podem ser visualizadas por pessoas interessadas em adotar.
-    </p>
+<main class="main">
 
-    <?php
-        // Recebendo os dados do formulário via POST
-        $nome = $_POST['nome'];
-        $tipo = $_POST['tipo'];
-        $idade = $_POST['idade'];
-        $porte = $_POST['porte'];
-        $descricao = $_POST['descricao'];
-        $bairro = $_POST['bairro'];
-        $contato = $_POST['contato'];
-    ?>
-
-    <h2>Detalhes do Animal para Adoção</h2>
-
-    <p><strong>Nome:</strong> <?php echo htmlspecialchars($nome); ?></p>
-    <p><strong>Tipo:</strong> <?php echo htmlspecialchars($tipo); ?></p>
-    <p><strong>Idade:</strong> <?php echo htmlspecialchars($idade); ?></p>
-    <p><strong>Porte:</strong> <?php echo htmlspecialchars($porte); ?></p>
-    <p><strong>Características físicas:</strong> <?php echo nl2br(htmlspecialchars($descricao)); ?></p>
-    <p><strong>Bairro:</strong> <?php echo htmlspecialchars($bairro); ?></p>
-    <p><strong>Telefone para contato:</strong> <?php echo htmlspecialchars($contato); ?></p>
-
+<section class="info-final" >
     <h3>Como ajudar ou adotar</h3>
     <p>
         Se você tem interesse em adotar o animal cadastrado acima, entre em contato
@@ -47,11 +32,82 @@
         e de animais que estão precisando de uma família. Quanto mais pessoas souberem
         das informações, maiores são as chances de cada animal encontrar um novo lar.
     </p>
+    </section>
 
-    <br>
-    <a href="cadastrarAdocao.php">Cadastrar outro animal para adoção</a><br>
-    <br>
-    <a href="index.php">Voltar para a página inicial</a>
+    
+    <!-- STATUS -->
+    <section class="status">
+        <div class="status-icon">✔</div>
+        <p>Cadastro realizado com sucesso</p>
+    </section>
+
+    <?php
+        // Recebendo os dados do formulário via POST
+        $nome = $_POST['nome'];
+        $tipo = $_POST['tipo'];
+        $idade = $_POST['idade'];
+        $porte = $_POST['porte'];
+        $descricao = $_POST['descricao'];
+        $bairro = $_POST['bairro'];
+        $contato = $_POST['contato'];
+    ?>
+
+    <section class="card">
+
+        <div class="card-header">
+            <h2>Informações do Animal</h2>
+        </div>
+
+        <div class="card-content">
+
+        <div  class="item" >
+            
+            <p><strong>Nome:</strong> <?php echo htmlspecialchars($nome); ?></p>
+        </div>
+    
+        <div  class="item" > 
+            
+            <p><strong>Tipo:</strong> <?php echo htmlspecialchars($tipo); ?></p>
+        </div>
+   
+        <div  class="item" >
+           
+            <p><strong>Idade:</strong> <?php echo htmlspecialchars($idade); ?></p>
+        </div>
+
+        <div  class="item" >
+          
+            <p><strong>Porte:</strong> <?php echo htmlspecialchars($porte); ?></p>
+        </div>
+    
+        <div  class="item" >
+             
+            <p><strong>Características físicas:</strong> <?php echo nl2br(htmlspecialchars($descricao)); ?></p>
+        </div>
+
+        <div  class="item" >
+            
+            <p><strong>Bairro:</strong> <?php echo htmlspecialchars($bairro); ?></p>
+        </div>
+
+        <div  class="item" >
+           
+             <p><strong>Telefone para contato:</strong> <?php echo htmlspecialchars($contato); ?></p>
+        </div>
+    
+    
+    
+   
+
+    
+    
+        
+
+    <div class="actions">
+        <a href="cadastrarAdocao.php" class="btn">Novo cadastro</a>
+        <a href="index.php" class="btn-outline">Página inicial</a>
+    </div>
+
 
 </body>
 </html>
