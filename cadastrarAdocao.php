@@ -7,10 +7,20 @@
     <title>Cadastrar Animal para Adoção</title>
 </head>
 
+<link rel="stylesheet" href="Adocao1.css">
+
+
 <body>
 
-    <h1>Cadastro de Animal para Adoção</h1>
+    <header class="hero">
+    <h1 class="hero-title">Cadastro de Animal para Adoção</h1>
+    <p class="hero-text">Ajude um animal a encontrar um novo lar</p>
+    </header>
 
+    <br><br>
+    <section class="info">
+    
+    <h1 class="form-title"> Cadastro de Animais</h1>
     <p>
         Bem-vindo à seção de cadastro de animais disponíveis para adoção do
         <strong>Patas & Lares</strong>. Aqui você pode informar sobre animais
@@ -30,12 +40,14 @@
         para contato, para que pessoas interessadas possam se comunicar e
         combinar a adoção.
     </p>
+    </section>
 
-    <h3>Preencha as informações abaixo:</h3>
-
-    <form action="processaAdocao.php" method="POST">
-
-        <p>Nome do animal:</p>
+    
+    
+    <form class="form-card" action="processaAdocao.php" method="POST">
+    <h2 class="form-title">Preencha as informações abaixo:</h2>
+        
+    <p>Nome do animal:</p>
         <input type="text" name="nome" required>
 
         <p>Tipo de animal:</p>
@@ -56,15 +68,15 @@
         <p>Telefone para contato:</p>
         <input type="text" name="contato" required>
 
-        <br><br>
-        <input type="submit" value="Cadastrar Animal para Adoção">
+       
+        <input type="submit" value="Cadastrar Animal para Adoção" class="btn">
+ 
+        <a href="index.php" class="link-voltar">Voltar Para o Início</a>
 
     </form>
 
-    <br><br>
-    <a href="index.php">Voltar para a página inicial</a>
-
-    <footer>
+   
+    <footer class="footer" >
         <p>&copy; 2026 - Site desenvolvido como projeto escolar. Projeto desenvolvido para a disciplina de Programação Web utilizando
             HTML, CSS e PHP - Projeto Patas & Lares</p>
     </footer>
