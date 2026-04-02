@@ -1,0 +1,158 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #E6DFCF; /* bege */
+    color: #2F4F3E;
+}
+
+/* HERO */
+.hero {
+    background: #F5823A; /* laranja */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.hero-text {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* CENTRALIZA */
+.info,
+.info-final,
+.status,
+.card,
+.actions {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* CARDS */
+.info,
+.info-final {
+    background: #F3E0A6; /* amarelo */
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card {
+    background: #EEEEEE; /* cinza claro */
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TÍTULOS */
+.info-final h3,
+.card-header h2 {
+    color: #61855A; /* verde */
+    margin-bottom: 15px;
+}
+
+/* TEXTO */
+.info p,
+.info-final p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* STATUS */
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #dfeee0;
+    color: #2e7d32;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* HEADER */
+.card-header {
+    margin-bottom: 20px;
+}
+
+/* GRID */
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* ITENS */
+.item {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* DESCRIÇÃO */
+.item:nth-child(5) {
+    grid-column: span 2;
+}
+
+/* BOTÕES */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* BOTÃO PRINCIPAL */
+.btn {
+    background: #F5823A;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #E36F2C;
+}
+
+/* BOTÃO SECUNDÁRIO */
+.btn-outline {
+    border: 2px solid #F5823A;
+    color: #F5823A;
+    padding: 12px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-outline:hover {
+    background: #F5823A;
+    color: white;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .card-content {
+        grid-template-columns: 1fr;
+    }
+
+    .item:nth-child(5) {
+        grid-column: span 1;
+    }
+}
