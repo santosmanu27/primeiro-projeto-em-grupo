@@ -1,0 +1,172 @@
+/* --- 1. RESET TOTAL (Para não sobrar espaço branco nas pontas) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f1f0e6; /* Bege claro de fundo */
+    color: #2f4f3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden; /* Mata qualquer barra de rolagem lateral */
+}
+
+/* --- 2. TOPO LARANJA (RETO E 100% DA TELA) --- */
+.hero {
+    background-color: #f1782a; /* Laranja sólido */
+    width: 100%; /* Ocupa a largura total sem erro */
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    white-space: normal; /* Garante que o texto fique reto e não empilhado */
+}
+
+/* --- 3. BALÃO DE TEXTO (AMARELO) --- */
+.form-intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.intro-card {
+    background-color: #f3e9b5; /* Amarelo areia */
+    padding: 35px;
+    border-radius: 15px;
+    max-width: 900px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    line-height: 1.7;
+}
+
+.intro-card h3 {
+    color: #61855A; /* Verde dos títulos */
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* --- 4. GRID E CARDS (ESTILO ANTERIOR) --- */
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: #dbd9ce; /* Fundo cinza do card */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOTOS: SEM LIMITE DE TAMANHO */
+.card img {
+    width: 100%; /* Largura total do card */
+    height: auto; /* Altura livre conforme a foto original */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+    border-bottom: 3px solid #f1782a;
+}
+
+.card h3 {
+    color: #f1782a;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+/* CAMPOS BRANCOS (IGUAL AO PROJETO ANTERIOR) --- */
+.campo-info {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+.campo-info strong {
+    color: #f1782a;
+}
+
+/* --- 5. BOTÃO PÍLULA --- */
+.btn-adotar {
+    background-color: #f1782a;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-adotar:hover {
+    background-color: #e6762d;
+    transform: translateY(-2px);
+}
+
+/* --- 6. RODAPÉ VERDE --- */
+footer {
+    background-color: #556b2f;
+    color: white;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.nav-links {
+    margin-bottom: 40px;
+}
+
+.nav-links a {
+    color: #f1782a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.card {
+    background-color: #dbd9ce; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+  
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+
+.card:hover {
+   
+    transform: translateY(-10px); 
+    
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15); 
+}
