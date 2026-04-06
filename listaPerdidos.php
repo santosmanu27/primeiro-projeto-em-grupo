@@ -26,7 +26,7 @@
             "bairro" => "Vila Nova",
             "descricao" => "Animal muito dócil, pelagem densa e clara, focinho escuro e olhos castanhos. Aparenta ser jovem e bem cuidado.",
             "contato" => "(18) 96428-7185",
-            "foto" => "perdidos(1).jpge"
+            "foto" => "perdido 1.png"
         ],
         [
             "nome" => "Toddy",
@@ -35,7 +35,7 @@
             "descricao" => "Filhote muito pequeno, manchas pretas simétricas na cabeça (parece uma máscara) e manchas nas costas. Muito curioso.",
             "contato" => "(18) 99631-1840",
             "contato" => "(18) 99765-9100",
-            "foto" => "perdidos(2).jpge"
+            "foto" => "perdido 2.png"
         ],
         [
             "nome" => "Manolo",
@@ -43,7 +43,7 @@
             "bairro" => "Vila Affini",
             "descricao" => "Gato preto de olhos amarelos. Usava uma coleira com um pingente metálico (medalhinha) no momento da foto.",
             "contato" => "(18) 99646-9813",
-            "foto" => "perdidos(3).jpge"
+            "foto" => "perdido 3.png"
         ],
         [
             "nome" => "Marrom",
@@ -51,7 +51,7 @@
             "bairro" => "Vila Gammon",
             "descricao" => "Cão alegre e ativo, possui uma mancha marrom característica que cobre um dos olhos. Estava com uma guia de corrente",
             "contato" => "(18) 99765-9100",
-            "foto" => "perdidos(4).jpge"
+            "foto" => "perdido 4.png"
         ],
         [
             "nome" => "Babi",
@@ -59,7 +59,7 @@
             "bairro" => "Jardim Panambi",
             "descricao" => "Cão extremamente dócil e sorridente, com pelagem clara e densa, especialmente no peito e orelhas. Tem olhos castanhos escuros e focinho preto. Nas fotos, aparece interagindo com pessoas e parece estar muito habituado ao convívio doméstico",
             "contato" => "(18) 99813-0308",
-            "foto" => "perdidos(5).jpge"
+            "foto" => "perdido 5.png"
         ],
         [
             "nome" => "Bob",
@@ -67,7 +67,7 @@
             "bairro" => "Jardim Panambi",
             "descricao" => "Gato elegante com olhos verdes muito claros. Pelagem brilhante e uma pequena mancha branca no peito",
             "contato" => "(18) 99813-0308",
-            "foto" => "perdidos(6).jpge"
+            "foto" => "perdido 6.png"
         ],
         [
             "nome" => "Shelb",
@@ -75,7 +75,7 @@
             "bairro" => "Vila Nova",
             "descricao" => "Cão de constituição forte, com coloração muito distinta. Tem o peito e focinhos mais claros e focinho rosado. Aparece nas fotos com uma coleira vermelha de corda. É um cachorro que chama atenção.",
             "contato" => "(18) 99646-9813",
-            "foto" => "perdidos(7).jpge"
+            "foto" => "perdido 7.png"
         ],
         [
             "nome" => "Ellie",
@@ -83,7 +83,7 @@
             "bairro" => "Murilo Macedo",
             "descricao" => "Cão de médio porte, de pelo curto. a principal característica é a máscara preta cobrindo a região do olho esquerdo, parecendo um pirata. Oresto do corpo e rosto são brancos.",
             "contato" => "(18) 99813-0308",
-            "foto" => "perdidos(8).jpge"
+            "foto" => "perdido 8.png"
         ],
         [
             "nome" => "Pipoca",
@@ -91,7 +91,7 @@
             "bairro" => "Vila Gammon",
             "descricao" => "Cachorrinha de pequeno porte, estava usando uma roupinha de chochê muito fofa em tons de roxo no momento da foto. Tem olhos grandes e castanhos e uma expressão doce.",
             "contato" => "(18) 99765-9100",
-            "foto" => "perdidos(9).jpge"
+            "foto" => "perdido 9.png"
         ],
     ];
 
