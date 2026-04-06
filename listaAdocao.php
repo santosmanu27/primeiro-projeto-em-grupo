@@ -6,7 +6,7 @@
     <title>Animais para adoção</title>
 </head>
 <body>
-    <h1>Animais Disponíveis para Adoção</h1>
+<h1>Animais Disponíveis para Adoção</h1>
 
     <p>
         Nesta página você encontrará animais que estão disponíveis para adoção.

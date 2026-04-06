@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <h1>Animais Perdidos Cadastrados</h1>
+
+<h1>Animais Perdidos Cadastrados</h1>
 
     <p>
         Esta página mostra a lista de animais perdidos cadastrados no sistema

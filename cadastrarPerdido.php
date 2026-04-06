@@ -11,6 +11,7 @@
 <body>
     
     
+
    <header class="hero small-hero">
         <div class="container center">
             <h1 class="hero-title">Cadastro de Animal Perdido</h1>

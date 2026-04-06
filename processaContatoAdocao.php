@@ -10,7 +10,6 @@
 
 <body>
     
-
     <header class="hero">
         <h1 class="hero-title">Cadastro concluído</h1>
         <p class="hero-text">O animal já está disponível para adoção</p>

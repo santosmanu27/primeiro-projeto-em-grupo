@@ -12,6 +12,9 @@
 
 <body>
 
+
+    
+
     <header class="hero">
     <h1 class="hero-title">Cadastro de Animal para Adoção</h1>
     <p class="hero-text">Ajude um animal a encontrar um novo lar</p>

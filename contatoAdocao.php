@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="adocaocontato.css">
 
 <body>
-      <header class="hero">
+<header class="hero">
     <h1 class="hero-title">Formulário de Interesse em Adoção</h1>
     <p class="hero-text">Ficamos felizes com o seu interesse em adotar um animal!</p>
     </header>
