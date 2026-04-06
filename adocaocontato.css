@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fdf5e6; /* Cor de fundo creme */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Laranja */
+.hero {
+    background-color: #ff8c42;
+    width: 100%;
+    padding: 60px 20px 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* O balão de texto que pula */
+body > p {
+    background-color: #fef3c7;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: -50px; /* Faz ele subir no laranja */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    z-index: 5;
+    transition: transform 0.3s ease;
+    line-height: 1.6;
+}
+
+body > p:hover {
+    transform: translateY(-15px); /* O pulo que você pediu */
+}
+
+/* Card do Formulário Branco */
+form {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    margin: 40px 0;
+}
+
+form p {
+    font-weight: bold;
+    color: #556b2f; /* Verde do tema */
+    margin-bottom: 8px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Botão Enviar */
+input[type="submit"] {
+    width: 100%;
+    background-color: #ff8c42;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e6762d;
+}
+
+.link-voltar {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    text-decoration: none;
+}
