@@ -21,77 +21,77 @@
     <?php
     $animais = [
         [
-            "nome" => "luck",
-            "tipo" => "Cachorro",
-            "bairro" => "Panambi",
-            "descricao" => "Cachorro marrom, muito dócil e gosta de pessoas, desapareceu próximo à praça do panambi e estava usando uma coleira azul.",
-            "contato" => "99999-1111",
-            "foto" => "cachorromarrom1.jpg"
-        ],
-        [
-            "nome" => "Mia",
-            "tipo" => "cachorro",
+            "nome" => "Honny",
+            "tipo" => "Porte grande. pelagem clara (creme), orelhas em pés",
             "bairro" => "Vila Nova",
-            "descricao" => "cachorra caramelo, de porte pequeno. Mia é um pouco assustada, mas é muito carinhosa. Sumiu durante a noite e não estava usando coleira.",
-            "contato" => "98888-2222",
-            "contato" => "98888-2222",
-            "foto" => "caramelo.jpg"
+            "descricao" => "Animal muito dócil, pelagem densa e clara, focinho escuro e olhos castanhos. Aparenta ser jovem e bem cuidado.",
+            "contato" => "(18) 96428-7185",
+            "foto" => "perdidos(1).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Toddy",
+            "tipo" => "Filhote, pelagem branca com manchas pretas.",
+            "bairro" => "Jardim Murilo Macedo",
+            "descricao" => "Filhote muito pequeno, manchas pretas simétricas na cabeça (parece uma máscara) e manchas nas costas. Muito curioso.",
+            "contato" => "(18) 99631-1840",
+            "contato" => "(18) 99765-9100",
+            "foto" => "perdidos(2).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Manolo",
+            "tipo" => "Gato adulto, pelagem curta totalmente preta.",
+            "bairro" => "Vila Affini",
+            "descricao" => "Gato preto de olhos amarelos. Usava uma coleira com um pingente metálico (medalhinha) no momento da foto.",
+            "contato" => "(18) 99646-9813",
+            "foto" => "perdidos(3).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Marrom",
+            "tipo" => "Porte médio, pelagem branca com grandes manchas marrons, tipo SRD",
+            "bairro" => "Vila Gammon",
+            "descricao" => "Cão alegre e ativo, possui uma mancha marrom característica que cobre um dos olhos. Estava com uma guia de corrente",
+            "contato" => "(18) 99765-9100",
+            "foto" => "perdidos(4).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Babi",
+            "tipo" => "Porte grande, pelagem longa na cor dourada (Raça Golden Retriever)",
+            "bairro" => "Jardim Panambi",
+            "descricao" => "Cão extremamente dócil e sorridente, com pelagem clara e densa, especialmente no peito e orelhas. Tem olhos castanhos escuros e focinho preto. Nas fotos, aparece interagindo com pessoas e parece estar muito habituado ao convívio doméstico",
+            "contato" => "(18) 99813-0308",
+            "foto" => "perdidos(5).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Bob",
+            "tipo" => "Gato adulto, pelagem curta e uniforme na cor cinza.",
+            "bairro" => "Jardim Panambi",
+            "descricao" => "Gato elegante com olhos verdes muito claros. Pelagem brilhante e uma pequena mancha branca no peito",
+            "contato" => "(18) 99813-0308",
+            "foto" => "perdidos(6).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Shelb",
+            "tipo" => "Porte médio/grande, Pitbull, pelagem curta na cor cinza-rosado (Lilac) e tan (Caramelo).",
+            "bairro" => "Vila Nova",
+            "descricao" => "Cão de constituição forte, com coloração muito distinta. Tem o peito e focinhos mais claros e focinho rosado. Aparece nas fotos com uma coleira vermelha de corda. É um cachorro que chama atenção.",
+            "contato" => "(18) 99646-9813",
+            "foto" => "perdidos(7).jpge"
         ],
         [
-            "nome" => "Thor",
-            "tipo" => "Gato",
-            "bairro" => "Jardim América",
-            "descricao" => "Grande, preto, usa coleira",
-            "contato" => "97777-3333",
-            "foto" => ""
+            "nome" => "Ellie",
+            "tipo" => "Porte médio, SDR (Vira-lata), palgem curta predominantemente branca com mancha preta sobre um olho.",
+            "bairro" => "Murilo Macedo",
+            "descricao" => "Cão de médio porte, de pelo curto. a principal característica é a máscara preta cobrindo a região do olho esquerdo, parecendo um pirata. Oresto do corpo e rosto são brancos.",
+            "contato" => "(18) 99813-0308",
+            "foto" => "perdidos(8).jpge"
+        ],
+        [
+            "nome" => "Pipoca",
+            "tipo" => "Porte pequeno, Shitzu, pelagem creme bem clara, orelhas caídas.",
+            "bairro" => "Vila Gammon",
+            "descricao" => "Cachorrinha de pequeno porte, estava usando uma roupinha de chochê muito fofa em tons de roxo no momento da foto. Tem olhos grandes e castanhos e uma expressão doce.",
+            "contato" => "(18) 99765-9100",
+            "foto" => "perdidos(9).jpge"
         ],
     ];
 

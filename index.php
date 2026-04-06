@@ -11,14 +11,8 @@
 
 <body>
   
-   <header class="hero">
-        <div class="container">
-            <h1 class="hero-title">Patas & Lares</h1>
-            <p class="hero-text">
-                Conectando animais perdidos a seus donos e ajudando pets a encontrarem um novo lar.
-            </p>
-        </div>
-    </header>
+  <img src="img/Patas & Lares (2).png" alt="">
+
 
 <section  class="sobre container" >
     <h2 class="section-title" >Sobre o projeto</h2>

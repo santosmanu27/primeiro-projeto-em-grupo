@@ -30,7 +30,7 @@
                 "idade" => "1 ano",
                 "descricao" => "Luna é uma gata muito calma, carinhosa e gosta de dormir em lugares quentinhos. Está acostumada com pessoas e é muito dócil.",
                 "contato" => "99999-4444",
-                "foto" => "cachorromarrom1.jpg"
+                "foto" => "adocao.png"
             ],
             [
                 "nome" => "Bob",
@@ -38,7 +38,7 @@
                 "idade" => "2 anos",
                 "descricao" => "Bob é um cachorro muito brincalhão e cheio de energia. Ele gosta de correr, brincar com bola e se dá muito bem com crianças.",
                 "contato" => "98888-5555",
-                "foto" => "caramelo.jpg"
+                "foto" => "adocao (1).png"
             ],
             [
                 "nome" => "Mel",
@@ -46,7 +46,7 @@
                 "idade" => "3 anos",
                 "descricao" => "Mel é uma cachorra muito tranquila, obediente e companheira. Ideal para quem quer um animal calmo e muito carinhoso.",
                 "contato" => "97777-6666",
-                "foto" => "cachorromarrom1.jpg"
+                "foto" => "adocao (5).png"
             ],
             [
                 "nome" => "Bob",
@@ -54,7 +54,7 @@
                 "idade" => "2 anos",
                 "descricao" => "Bob é um cachorro muito brincalhão e cheio de energia. Ele gosta de correr, brincar com bola e se dá muito bem com crianças.",
                 "contato" => "98888-5555",
-                "foto" => "caramelo.jpg"
+                "foto" => "adocao (4).png"
             ],
             [
                 "nome" => "Bob",
@@ -62,7 +62,7 @@
                 "idade" => "2 anos",
                 "descricao" => "Bob é um cachorro muito brincalhão e cheio de energia. Ele gosta de correr, brincar com bola e se dá muito bem com crianças.",
                 "contato" => "98888-5555",
-                "foto" => "caramelo.jpg"
+                "foto" => "adocao (3).png"
             ],
             [
                 "nome" => "Bob",
@@ -70,7 +70,7 @@
                 "idade" => "2 anos",
                 "descricao" => "Bob é um cachorro muito brincalhão e cheio de energia. Ele gosta de correr, brincar com bola e se dá muito bem com crianças.",
                 "contato" => "98888-5555",
-                "foto" => "caramelo.jpg"
+                "foto" => "adocao (2).png"
             ],
         ];
 
