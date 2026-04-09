@@ -63,7 +63,7 @@
     <div class="membro" >
         <img  class="membro-img" src="img/leticia.jpg" width="250">
          <div class="membro-info">
-                <h3 class="membro-nome">Letícia Bassani- Desenvolvedora Do site</h3>
+                <h3 class="membro-nome">Letícia Bassani - Desenvolvedora Do site</h3>
         <p class="membro-desc">
             Letícia é estudante e desenvolvedora. Apaixonada por tecnologia e causas sociais.
             Ela teve a ideia do Patas & Lares depois de perceber que muitos animais desapareciam
@@ -78,7 +78,7 @@
     <div class="membro" >
         <img class="membro-img" src="img/clarice.jpg" width="250">
        <div class="membro-info">
-                <h3 class="membro-nome">Clarice Lombardi- Veterinária</h3>
+                <h3 class="membro-nome">Clarice Lombardi - Veterinária</h3>
             <p class="membro-desc">
             Clarice é veterinária e sempre trabalhou com resgate de animais abandonados. No projeto
             Patas & Lares, ela contribuiu com informações importantes sobre cuidados com animais,
@@ -93,7 +93,7 @@
     <div class="membro" >
         <img class="membro-img" src="img/yasmim.jpg" width="250">
        <<div class="membro-info">
-                <h3 class="membro-nome">Yasmim Souza- Designer Gráfico</h3>
+                <h3 class="membro-nome">Yasmim Souza - Designer Gráfico</h3>
         <p class="membro-desc">
             Yasmim é designer gráfico e ficou responsável por deixar o site visualmente organizado
             e fácil de usar. ela criou a disposição das páginas, pensou nos menus e nas listas de
@@ -108,7 +108,7 @@
     <div class="membro" >
         <img  class="membro-img"  src="img/manuela.jpg" width="250">
         <<div class="membro-info">
-                <h3 class="membro-nome">Manuela Souza- Bióloga</h3>
+                <h3 class="membro-nome">Manuela Santos - Bióloga</h3>
         <p  class="membro-desc">
             Manuela é bióloga especializada em comportamento animal e colaborou escrevendo conteúdos
             educativos sobre a importância de cuidar de animais de rua, a necessidade da identificação
@@ -122,7 +122,7 @@
     <div class="membro" >
         <img class="membro-img"  src="img/laura.jpg" width="250">
          <<div class="membro-info">
-                <h3 class="membro-nome">Laura Souza- Comunicadora Social</h3>
+                <h3 class="membro-nome">Laura Souza - Comunicadora Social</h3>
         <p class="membro-desc">
             Laura é a comunicadora social e ficou responsável pela divulgação do projeto. ela pensou em
             como tornar o site conhecido entre a comunidade, para que mais pessoas pudessem cadastrar
